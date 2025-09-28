@@ -58,32 +58,32 @@
 {{- /* Goat Counter */ -}}
 {{- with $analytics.goatCounter.code -}}
     <script>
-        let r = new XMLHttpRequest();
-        let views = document.getElementById("page-views");
-
-        var get_path = function() {
-            var loc = location,
-                c = document.querySelector('link[rel="canonical"][href]')
-            if (c) {  // May be relative or point to different domain.
-                var a = document.createElement('a')
-                a.href = c.href
-                if (a.hostname.replace(/^www\./, '') === location.hostname.replace(/^www\./, ''))
-                    loc = a
+        // GoatCounter sayfa görüntüleme sayısını yükle
+        document.addEventListener('DOMContentLoaded', function() {
+            const viewCount = document.getElementById('view-count');
+            if (viewCount) {
+                const path = location.pathname.replace(/\/$/, '') || '/';
+                fetch('https://{{ . }}.goatcounter.com/counter' + encodeURIComponent(path) + '.json')
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('Network response was not ok');
+                        }
+                        return response.json();
+                    })
+                    .then(data => {
+                        if (data && data.count_unique !== undefined) {
+                            viewCount.textContent = data.count_unique + ' görüntüleme';
+                        } else {
+                            viewCount.textContent = '0 görüntüleme';
+                        }
+                    })
+                    .catch(error => {
+                        console.log('GoatCounter load error:', error);
+                        viewCount.textContent = '';
+                        viewCount.parentElement.style.display = 'none';
+                    });
             }
-            let path = loc.pathname;
-            if(path.endsWith('/')) path = path.slice(0, -1);
-            return path || '/';
-        }
-
-        if(views) {
-            r.addEventListener('load', function() {
-                const count = JSON.parse(this.responseText);
-                views.innerHTML = `${count.count_unique} views on this page (powered by <a href="https://www.goatcounter.com/">Goat Counter</a>)`
-            })
-
-            r.open('GET', 'https://{{ . }}.goatcounter.com/counter/' + encodeURIComponent(get_path()) + '.json')
-            r.send()
-        }
+        });
     </script>
     <script data-goatcounter="https://{{ . }}.goatcounter.com/count"
             async src="//gc.zgo.at/count.js"></script>

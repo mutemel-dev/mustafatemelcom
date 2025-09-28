@@ -63,7 +63,7 @@
                 {{- /* GoatCounter page views */ -}}
                 {{- with .Site.Params.analytics.goatCounter.code -}}
                     <span id="page-views">
-                        <i class="far fa-eye fa-fw" aria-hidden="true"></i>&nbsp;{{ T "views" }}
+                        <i class="far fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span id="view-count">Yükleniyor...</span>
                     </span>&nbsp;
                 {{- end -}}
             </div>
