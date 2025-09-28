@@ -536,7 +536,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         # automatically adapt the current theme i18n configuration when empty
         # 为空时自动适配当前主题 i18n 配置
         lang = ""
-        visitor = false
+        visitor = true
         recordIP = true
         highlight = true
         enableQQ = false
@@ -625,7 +625,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         # Or 或者
         # someCSS = "https://cdn.example.com/some.css"
       [params.page.library.js]
-        # pageCounter = "/js/page-counter.js"  # Temporarily disabled
+        # pageCounter = "js/page-counter.js"  # Temporarily disabled
         # someJavascript = "some.js"
         # located in "assets/" 位于 "assets/"
         # Or 或者
