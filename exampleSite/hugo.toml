@@ -580,9 +580,9 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # utterances comment config (https://utteranc.es/)
       # utterances comment 评论系统设置 (https://utteranc.es/)
       [params.page.comment.utterances]
-        enable = false
+        enable = true
         # owner/repo
-        repo = ""
+        repo = "mutemel-dev/mustafatemelcom"
         issueTerm = "pathname"
         label = ""
         lightTheme = "github-light"
@@ -592,7 +592,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       [params.page.comment.giscus]
         # You can refer to the official documentation of giscus to use the following configuration.
         # 你可以参考官方文档来使用下列配置
-        enable = true
+        enable = false
         repo = "mutemel-dev/mustafatemelcom"
         repoId = "R_kgDOP4hWUw"  # https://giscus.app/ sitesinden alacaksınız
         category = "General"
