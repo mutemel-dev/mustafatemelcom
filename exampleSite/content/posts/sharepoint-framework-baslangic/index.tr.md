@@ -344,22 +344,6 @@ Log.info('MyWebPart', 'Information message');
 Log.error('MyWebPart', new Error('Something went wrong'));
 ```
 
-## Sonuç
-
-SharePoint Framework, modern web geliştirme araçlarıyla SharePoint ekosisteminin gücünü birleştiren mükemmel bir platform sunar. Bu rehberde öğrendiklerinizle:
-
--  SPFx geliştirme ortamını kurmayı
--  İlk web part'ınızı oluşturmayı  
--  SharePoint'e deployment yapmayı
--  En iyi pratikleri uygulamayı
-
-öğrendiniz.
-
-{{< admonition type=info title="Sonraki Adımlar" >}}
-- [SPFx Extensions](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/extensions/overview-extensions) öğrenin
-- [PnP SPFx Controls](https://pnp.github.io/sp-dev-fx-controls-react/) keşfedin
-- [Microsoft Teams'te SPFx](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/integrate-with-teams-introduction) kullanmayı öğrenin
-{{< /admonition >}}
 
 ## Kaynaklar
 
