@@ -60,6 +60,12 @@
                         <i class="far fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;{{ T "views" }}
                     </span>&nbsp;
                 {{- end -}}
+                {{- /* GoatCounter page views */ -}}
+                {{- with .Site.Params.analytics.goatCounter.code -}}
+                    <span id="page-views">
+                        <i class="far fa-eye fa-fw" aria-hidden="true"></i>&nbsp;{{ T "views" }}
+                    </span>&nbsp;
+                {{- end -}}
             </div>
         </div>
 
