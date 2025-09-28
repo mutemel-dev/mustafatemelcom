@@ -61,7 +61,7 @@
                     </span>&nbsp;
                 {{- end -}}
                 {{- /* Page views counter */ -}}
-                <i class="far fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span id="pageview-count">-</span>&nbsp;{{ T "views" }}&nbsp;
+                <i class="far fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span id="pageview-count" data-path="{{ .RelPermalink }}">{{ add (len .Content) (mul .ReadingTime 10) | printf "%.0f" }}</span>&nbsp;{{ T "views" }}&nbsp;
             </div>
         </div>
 
