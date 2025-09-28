@@ -2,6 +2,7 @@
 title: "Hakkımda"
 date: 2025-09-28T20:00:00+03:00
 draft: false
+workStartDate: "2018-08-01"
 
 lightgallery: true
 
@@ -12,11 +13,11 @@ math:
 # Mustafa Temel
 ## Software Development Expert
 
-Merhaba! Ben Mustafa Temel. **Borusan Otomotiv** şirketinde **Software Development Expert** olarak çalışıyorum. 7 yılı aşkın yazılım geliştirme deneyimi ile SharePoint Framework, Enterprise Architecture ve modern web teknolojileri alanlarında uzmanlaşmış bir yazılım geliştirici ve sistem mimarıyım.
+Merhaba! Ben Mustafa Temel. **Borusan Otomotiv** şirketinde **Software Development Expert** olarak çalışıyorum. 7+ yıllık yazılım geliştirme deneyimi ile SharePoint Framework, Enterprise Architecture ve modern web teknolojileri alanlarında uzmanlaşmış bir yazılım geliştirici ve sistem mimarıyım.
 
 ## Profesyonel Deneyim
 
-### Borusan Otomotiv (7 yıl 2 ay)
+### Borusan Otomotiv (7+ yıl)
 - **Software Senior Specialist** *(Eylül 2020 - Günümüz)*
 - **Software Developer** *(Ağustos 2018 - Eylül 2020)*
 
