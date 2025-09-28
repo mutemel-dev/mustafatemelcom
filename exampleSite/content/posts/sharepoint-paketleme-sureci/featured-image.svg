@@ -1,0 +1,40 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d3748;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a202c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#grad2)"/>
+  
+  <!-- Package Icon -->
+  <rect x="150" y="250" width="120" height="120" rx="10" fill="#48bb78" opacity="0.2"/>
+  <rect x="170" y="270" width="80" height="80" rx="8" fill="#48bb78" opacity="0.8"/>
+  <text x="210" y="320" text-anchor="middle" fill="white" font-family="Segoe UI, sans-serif" font-size="32" font-weight="bold">📦</text>
+  
+  <!-- Main Title -->
+  <text x="320" y="280" fill="white" font-family="Segoe UI, sans-serif" font-size="42" font-weight="bold">SharePoint Framework</text>
+  <text x="320" y="330" fill="white" font-family="Segoe UI, sans-serif" font-size="32">Paketleme Süreci</text>
+  
+  <!-- Subtitle -->
+  <text x="320" y="380" fill="#a0aec0" font-family="Segoe UI, sans-serif" font-size="18">Build • Bundle • Deploy</text>
+  
+  <!-- Process Steps -->
+  <circle cx="950" cy="200" r="25" fill="#48bb78"/>
+  <text x="950" y="207" text-anchor="middle" fill="white" font-family="Segoe UI, sans-serif" font-size="16" font-weight="bold">1</text>
+  <text x="950" y="240" text-anchor="middle" fill="white" font-family="Segoe UI, sans-serif" font-size="12">BUILD</text>
+  
+  <circle cx="950" cy="315" r="25" fill="#4299e1"/>
+  <text x="950" y="322" text-anchor="middle" fill="white" font-family="Segoe UI, sans-serif" font-size="16" font-weight="bold">2</text>
+  <text x="950" y="355" text-anchor="middle" fill="white" font-family="Segoe UI, sans-serif" font-size="12">BUNDLE</text>
+  
+  <circle cx="950" cy="430" r="25" fill="#9f7aea"/>
+  <text x="950" y="437" text-anchor="middle" fill="white" font-family="Segoe UI, sans-serif" font-size="16" font-weight="bold">3</text>
+  <text x="950" y="470" text-anchor="middle" fill="white" font-family="Segoe UI, sans-serif" font-size="12">DEPLOY</text>
+  
+  <!-- Connecting Lines -->
+  <line x1="950" y1="225" x2="950" y2="290" stroke="#4a5568" stroke-width="2"/>
+  <line x1="950" y1="340" x2="950" y2="405" stroke="#4a5568" stroke-width="2"/>
+</svg>

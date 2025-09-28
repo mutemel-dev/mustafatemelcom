@@ -10,7 +10,7 @@ description: "SharePoint Framework (SPFx) nedir, nasıl kurulur ve ilk web part 
 images: []
 resources:
 - name: "featured-image"
-  src: "featured-image.jpg"
+  src: "featured-image.png"
 
 tags: ["SharePoint", "SPFx", "SharePoint Framework", "Microsoft 365", "Web Development", "TypeScript", "React"]
 categories: ["Teknoloji", "Geliştirme"]

@@ -10,7 +10,7 @@ description: "SharePoint Framework (SPFx) projelerini nasıl paketleyip SharePoi
 images: []
 resources:
 - name: "featured-image"
-  src: "featured-image.jpg"
+  src: "featured-image.png"
 
 tags: ["SharePoint", "SPFx", "Deployment", "Packaging", "Microsoft 365"]
 categories: ["Teknoloji", "Geliştirme"]
