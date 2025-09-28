@@ -625,6 +625,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         # Or 或者
         # someCSS = "https://cdn.example.com/some.css"
       [params.page.library.js]
+        # pageCounter = "/js/page-counter.js"  # Temporarily disabled
         # someJavascript = "some.js"
         # located in "assets/" 位于 "assets/"
         # Or 或者
@@ -698,7 +699,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     [params.analytics.yandexMetrica]
       id = ""
     [params.analytics.goatCounter]
-      code = ""
+      code = "mustafatemel"  # GoatCounter hesabınızdan alacağınız kod
 
 
   # Cookie consent config
