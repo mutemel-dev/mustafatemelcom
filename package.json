@@ -16,6 +16,7 @@
   "scripts": {
     "preinstall": "npx npm-force-resolutions",
     "prepare": "husky install",
+    "build": "npm run compile && hugo --source exampleSite --gc --minify --environment production",
     "compile": "npx babel src/js --out-file assets/js/theme.js",
     "compile-lunr-segmentit": "browserify src/lib/lunr/lunr.segmentit.js -o assets/lib/lunr/lunr.segmentit.js -t babelify --presets @babel/preset-env",
     "hugo": "hugo --source exampleSite --buildDrafts --gc",
