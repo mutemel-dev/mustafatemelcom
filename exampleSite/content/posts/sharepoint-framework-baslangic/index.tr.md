@@ -15,7 +15,7 @@ resources:
 tags: ["SharePoint", "SPFx", "SharePoint Framework", "Microsoft 365", "Web Development", "TypeScript", "React"]
 categories: ["Teknoloji", "Geliştirme"]
 
-lightgallery: true
+lightgallery: false
 ---
 
 # SharePoint Framework (SPFx) ile Geliştirmeye Başlangıç

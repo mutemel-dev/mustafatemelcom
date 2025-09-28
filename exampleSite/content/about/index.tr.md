@@ -4,7 +4,7 @@ date: 2025-09-28T20:00:00+03:00
 draft: false
 workStartDate: "2018-08-01"
 
-lightgallery: true
+lightgallery: false
 
 math:
   enable: true

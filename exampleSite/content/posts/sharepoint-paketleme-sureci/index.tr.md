@@ -15,7 +15,7 @@ resources:
 tags: ["SharePoint", "SPFx", "Deployment", "Packaging", "Microsoft 365"]
 categories: ["Teknoloji", "Geliştirme"]
 
-lightgallery: true
+lightgallery: false
 ---
 
 # SharePoint Framework Paketleme ve Dağıtım Süreci
