@@ -7,7 +7,6 @@
   "buildCommand": "npm run build",
   "outputDirectory": "exampleSite/public",
   "framework": null,
-  "functions": {},
   "headers": [
     {
       "source": "/(.*)",
