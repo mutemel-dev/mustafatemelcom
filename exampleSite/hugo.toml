@@ -526,7 +526,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # Valine comment config (https://github.com/xCss/Valine)
       # Valine 评论系统设置 (https://github.com/xCss/Valine)
       [params.page.comment.valine]
-        enable = true
+        enable = false
         appId = "QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI"
         appKey = "WBmoGyJtbqUswvfLh6L8iEBr"
         placeholder = ""
@@ -536,7 +536,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         # automatically adapt the current theme i18n configuration when empty
         # 为空时自动适配当前主题 i18n 配置
         lang = ""
-        visitor = true
+        visitor = false
         recordIP = true
         highlight = true
         enableQQ = false
@@ -592,11 +592,11 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       [params.page.comment.giscus]
         # You can refer to the official documentation of giscus to use the following configuration.
         # 你可以参考官方文档来使用下列配置
-        enable = false
-        repo = ""
-        repoId = ""
-        category = "Announcements"
-        categoryId = ""
+        enable = true
+        repo = "mutemel-dev/mustafatemelcom"
+        repoId = "R_kgDOP4hWUw"  # https://giscus.app/ sitesinden alacaksınız
+        category = "General"
+        categoryId = ""  # https://giscus.app/ sitesinden alacaksınız
         # automatically adapt the current theme i18n configuration when empty
         # 为空时自动适配当前主题 i18n 配置
         lang = ""
@@ -681,7 +681,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   [params.analytics]
     # Google Analytics
     [params.analytics.google]
-      id = ""
+      id = "G-PNQXYN4N3R"
       # whether to respect the browser’s “do not track” setting
       # 是否遵循浏览器的 “Do Not Track” 设置
       respectDoNotTrack = false
